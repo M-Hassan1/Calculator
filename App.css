@@ -1,0 +1,71 @@
+body{
+  background-color:silver;
+}
+h1{
+  text-align: center; 
+  color: rgb(80, 2, 2);
+
+}
+.put{
+  display: flex;
+justify-content: center;
+
+}
+.box{
+  position: relative;
+width: 28%;
+height: 50px;
+text-align: right;
+box-sizing: content-box;
+border-radius: 20px;
+font-size: xx-large;
+}
+
+.contaner{
+  text-align: center;
+  padding: 20px;
+}
+.button{
+  position: relative;
+  width: 60px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 20px;
+  border-color: brown;
+  color: whitesmoke;
+  border-radius: 47px;
+
+}
+.row4{
+  font-size: 10px;
+}
+.row1 .button{
+  padding: 12px;
+  margin: 5px;
+  background-color: gray;
+}
+.row4 .button{
+background-color: lightslategray;
+color: black;
+}
+.row3 .button{
+background-color: black;
+}
+  .row2 .button{
+    background-color: black;
+  }
+  .row5{
+    font-size: 10px;
+  }
+  .row5 .button{
+    background-color: black;
+  }
+@media screen and (max-width: 500px) {
+.box{
+width: 65%;
+height: 65px;
+border-radius: 20px;
+font-size: xx-large;
+
+}
+}
